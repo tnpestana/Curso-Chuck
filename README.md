@@ -1,5 +1,5 @@
 # Curso-ChucK
 
-Small repository where I'll keep my best projects from the online course "Programming for Musicians and Digital Artists" in the format of ChucK (.ck) files. All code was writen by me in 2013 and represents my first contact with programming.
+Small repo to keep some projects from the online course "Programming for Musicians and Digital Artists", my first contact with programming, in the format of ChucK (.ck) files.
 
 Tiago Pestana
