@@ -1,4 +1,5 @@
-<<< "Assignment_4_pe$$to" >>>;
+<<< "Assignment_4_pesto" >>>;
+
 // sound chain osc
 Gain master => dac;
 TriOsc chord[3];
@@ -15,11 +16,11 @@ SndBuf snare => master;
 SndBuf kick2 => master;
 SndBuf hihat => master;
 // open soundfiles
-me.dir() + "/audio/kick_01.wav" => kick.read;
-me.dir() + "/audio/kick_03.wav" => kick2.read;
-me.dir() + "/audio/snare_03.wav" => click.read;
-me.dir() + "/audio/snare_02.wav" => snare.read;
-me.dir() + "/audio/hihat_01.wav" => hihat.read;
+me.dir() + "../audio/kick_01.wav" => kick.read;
+me.dir() + "../audio/kick_03.wav" => kick2.read;
+me.dir() + "../audio/snare_03.wav" => click.read;
+me.dir() + "../audio/snare_02.wav" => snare.read;
+me.dir() + "../audio/hihat_01.wav" => hihat.read;
 // set playheads to no sound
 kick.samples() => kick.pos;
 kick2.samples() => kick2.pos;

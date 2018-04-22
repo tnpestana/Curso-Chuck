@@ -1,4 +1,4 @@
-<<< "Assignment_3_pe$$to" >>>;
+<<< "Assignment_3_pesto" >>>;
 
 //sound chain
 Gain master => dac;
@@ -51,14 +51,14 @@ SawOsc tres => NRev r2 => Pan2 pantres => master;
 
 
 //load soundfiles
-me.dir() + "/audio/kick_01.wav" => kick1.read;
-me.dir() + "/audio/kick_03.wav" => kick2.read;
-me.dir() + "/audio/hihat_01.wav" => hihat.read;
-me.dir() + "/audio/hihat_03.wav" => hihat2.read;
-me.dir() + "/audio/snare_03.wav" => snare1.read;
-me.dir() + "/audio/snare_01.wav" => snare2.read;
-me.dir() + "/audio/cowbell_01.wav" => cowbell.read;
-me.dir() + "/audio/stereo_fx_05.wav" => fx.read;
+me.dir() + "../audio/kick_01.wav" => kick1.read;
+me.dir() + "../audio/kick_03.wav" => kick2.read;
+me.dir() + "../audio/hihat_01.wav" => hihat.read;
+me.dir() + "../audio/hihat_03.wav" => hihat2.read;
+me.dir() + "../audio/snare_03.wav" => snare1.read;
+me.dir() + "../audio/snare_01.wav" => snare2.read;
+me.dir() + "../audio/cowbell_01.wav" => cowbell.read;
+me.dir() + "../audio/stereo_fx_05.wav" => fx.read;
 
 //set all playhead to end so no sound is made
 kick1.samples() => kick1.pos;
